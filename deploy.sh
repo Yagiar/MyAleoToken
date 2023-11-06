@@ -1,0 +1,3 @@
+RECORD="{owner: aleo1azvdfw34fd8msz8k558kwr5a6wxnyzv63jh8p2rstfur3h7x8uys78tlp3.private, mircocredits: 50000000u64.private, _nonce: 5486151328912010885424777107471146364742228245478707686270207855541764043339group.public}"
+
+snarkos developer deploy "token_1693.aleo" --private-key "APrivateKey1zkp3Bkem38KyAvBDCLF9CKjnKmPUEk6KQBNNoSZqxeqcNb3" --query "https://vm.aleo.org/api" --path "./build" --broadcast "https://vm.aleo.org/api/testnet3/transaction/broadcast" --fee 12000000 --record "${RECORD}"
